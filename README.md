@@ -1,4 +1,4 @@
-大部分的案例来源于 Bilibili 学习网站
+大部分的案例来源于 Bilibili 学习网站 和 其他仿写案例
 
 ## 案例目录
 
@@ -9,9 +9,11 @@
 - 03_CountDown 倒计时，天时分秒，setInterval 的使用
 - 04_ContractionTimer 定时器
 - 05_Pagination 分页器，类的使用
+- 06_TodoList 待办列表，类的使用
 
 ## 进阶案例
 
 ES6 使用
 
 - 05_Pagination 分页器，类的使用
+- 06_TodoList 待办列表，类的使用

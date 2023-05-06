@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js" defer></script>
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="title">My Lists</h1>
+        <span>共计 <span class="nums">5</span> 条</span>
+      </div>
+
+      <div class="show"></div>
+
+      <div class="resolved">
+        <div class="btns-box">
+          <button class="removeall-btn btn">REMOVE ALL</button>
+        </div>
+
+        <div class="resolved-box">
+          <!-- <div class="item resolved-item">
+            <i class="ri-checkbox-circle-line"></i>
+            <span>loft</span>
+          </div>
+          <div class="item resolved-item">
+            <i class="ri-checkbox-circle-line"></i>
+            <span>paper</span>
+          </div>
+        </div> -->
+      </div>
+
+      <div class="input-box">
+        <input type="text" placeholder="+ Add new item" class="input" />
+        <button class="add btn">ADD</button>
+      </div>
+    </div>
+  </body>
+</html>
