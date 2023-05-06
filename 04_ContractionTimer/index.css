@@ -1,0 +1,89 @@
+/* // In style, paste this */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f2f6ff;
+  font-family: "Poppins";
+}
+.timer {
+  width: 490px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 40px 15px;
+}
+.timer::after {
+  content: "";
+  width: 400px;
+  height: 400px;
+  background: #171a3c;
+  border-radius: 20px;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  z-index: -1;
+}
+.header {
+  margin-bottom: 30px;
+  color: #171a3c;
+}
+.header h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.main {
+  margin-bottom: 40px;
+}
+.seconds-box {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.time-desc {
+  font-size: 14px;
+}
+.time-apart {
+  font-size: 12px;
+  font-weight: 900;
+}
+.timer-btn {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 15px 18px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 40px;
+  color: #fff;
+  background-color: #171a3c;
+  cursor: pointer;
+}
+
+.timer-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.timer-table thead {
+  color: #8b8c9d;
+}
+.timer-table tbody {
+  font-size: 14px;
+  font-weight: 600;
+}
+tbody tr{
+    height: 44px;
+    text-align: center;
+}
+tbody tr:nth-child(odd) {
+  background-color: #ebedfd;
+}

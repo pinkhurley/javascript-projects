@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>分页器</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        ul{
+            list-style: none;
+        }
+        .pagination{
+            display: flex;
+            align-items: center;
+            margin: 50px auto;
+        }
+        .pages{
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin: 0 20px;
+        }
+        .prev, .next{
+            background-color: gold;
+            width: 60px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            cursor: pointer;
+        }
+        .page {
+            background-color: gray;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            cursor: pointer;
+        }
+        .dot {
+            cursor: no-drop;
+        }
+        .page.active{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="pagination">
+            <!-- <div class="prev">prev</div>
+            <ul class="pages">
+                <li class="page active">1</li>
+                <li class="page">2</li>
+                <li class="page">3</li>
+                <li class="page">4</li>
+                <li class="page dot">...</li>
+                <li class="page">6</li>
+            </ul>
+            <div class="next">next</div> -->
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
