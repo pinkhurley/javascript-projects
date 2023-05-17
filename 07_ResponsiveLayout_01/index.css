@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    margin: 30px auto;
+    text-align: center;
+    max-width: 1000px;
+}
+.title{
+    margin-bottom: 15px;
+}
+.menus{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+    gap: 20px 20px;
+}
+.m-item{
+    height: 80px;
+    line-height: 80px;
+    box-shadow: 10px 10px 30px 0px lightgray;
+    border-radius: 10px;
+}
+.m-item a{
+    text-decoration: none;
+    color: #999;
+}
+.m-item a i{
+    margin-right: 10px;
+}
+.m-item:hover, .m-item:hover a{
+    background-color: #ecebdf;
+    color: #fff;
+}

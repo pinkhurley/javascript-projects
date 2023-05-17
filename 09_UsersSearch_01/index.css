@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: #E2E9F9;
+    font-family: "Poppins";
+}
+.container{
+    max-width: 950px;
+    margin: 100px auto;
+    padding: 40px 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 lightgray;
+}
+ul{
+    list-style: none;
+}
+.tabs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0 20px;
+}
+.search form{
+    position: relative;
+}
+.search input{
+    height: 40px;
+    width: 240px;
+    padding-left: 30px;
+    outline: none;
+    border: 1px solid #c6cee7;
+    border-radius: 3px;
+}
+.search button{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+}
+.menus ul{
+    display: flex;
+    gap: 8px;
+}
+.menus ul li{
+    font-size: 14px;
+    color: #373C47;
+    padding: 10px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menus ul li:hover,
+.menus ul li.current{
+    color: #fff;
+    background-color: #849fff;
+}
+.users{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+.user{
+    display: flex;
+    background-color: #fbfcff;
+    min-height: 180px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 15px;
+}
+.user:hover{
+    border: 1px solid #849fff;
+}
+.user img{
+    flex-shrink: 0;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+}
+.info .name{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.info .addr{
+    font-size: 12px;
+    font-weight: 600;
+}
+.info .tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+}
+.tag{
+    font-size: 10px;
+    color: #849fff;
+    padding: 0px 5px;
+    border: 1px solid #849fff;
+    border-radius: 10px;
+}
