@@ -13,6 +13,8 @@
 - 07_ResponsiveLayout_01, 响应式布局，按钮菜单 grid; 无 js
 - 08_Timeline 时间轴
 - 09_UsersSearch_01 用户搜索表,filter 的使用
+- 10_Chat 聊天程序界面 ; `word-wrap: break-word`： 解决字符太长不换行 ； ` keyCode=13` 是 enter 键 ；
+- 11_RandomPassord 随机密码生成器
 
 ## 进阶案例
 
