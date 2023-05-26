@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+  --dark-blue: #21204c;
+  --bg-color: #f1f0f9;
+  --tag-color: #f2f2fb;
+}
+body {
+  display: grid;
+  place-content: center;
+  background: var(--bg-color);
+  font-family: "Poppins";
+}
+.container {
+  display: grid;
+  place-items: center;
+  width: 50rem;
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  color: var(--dark-blue);
+}
+.header {
+  display: grid;
+  place-items: center center;
+  margin-bottom: 3rem;
+}
+.info {
+  word-wrap: break-word;
+  width: 23rem;
+  font-size: 0.8rem;
+  margin: 1rem 0;
+}
+.tags {
+  display: flex;
+  gap: 0.5rem;
+}
+.tag {
+  font-size: 0.2rem;
+  background: var(--tag-color);
+  padding: 0.2rem;
+  border-radius: 1rem;
+}
+.tag i {
+  margin-right: 5px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.btn {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.slider {
+  max-width: 500px;
+  width: 100%;
+}
+.slider .slider-inner {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 12px);
+  gap: 16px;
+  overflow: hidden;
+  /* scroll-snap-type: x mandatory; */
+  scroll-behavior: smooth;
+  scrollbar-width: 0;
+}
+.slider-inner .item {
+  text-align: center;
+}
+.avatar {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.name {
+  font-size: 14px;
+  font-weight: 600;
+}
+.profession {
+  font-size: 12px;
+}
+.view-btn {
+  font-size: 0.2rem;
+  color: #fff;
+  background: var(--dark-blue);
+  padding: 0.5rem 0.6rem;
+  border: none;
+  border-radius: 1rem;
+}

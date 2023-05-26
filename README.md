@@ -5,7 +5,7 @@
 主要是使用 HTML+CSS+Javascript
 
 - 01_DraggingList 可拖放排序列表
-- 02_Calendar 日历，可以切换月份，年份，更换主体颜色
+- 02_Calendar 日历，可以切换月份，年份，更换主题颜色
 - 03_CountDown 倒计时，天时分秒，setInterval 的使用
 - 04_ContractionTimer 定时器
 - 05_Pagination 分页器，类的使用
@@ -15,6 +15,7 @@
 - 09_UsersSearch_01 用户搜索表,filter 的使用
 - 10_Chat 聊天程序界面 ; `word-wrap: break-word`： 解决字符太长不换行 ； ` keyCode=13` 是 enter 键 ；
 - 11_RandomPassord 随机密码生成器
+- 12_Subscription 轮播图，grid-auto-columns 的使用
 
 ## 进阶案例
 
