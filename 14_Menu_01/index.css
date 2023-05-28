@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: "Poppins";
+  display: grid;
+  place-items: center;
+  background-color: #ecf0fc;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 23rem;
+  padding: 3rem;
+  border-radius: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 0.2rem 0.4rem 0 lightgray;
+}
+.header {
+  text-align: center;
+}
+.avatar {
+  width: 5rem;
+  border-radius: 50%;
+  border: 6px solid #ecf0fc;
+}
+.name {
+  font-size: 1rem;
+}
+.profession {
+  font-size: 0.5rem;
+  color: #9695a7;
+}
+.operations {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.3rem;
+}
+.item {
+  text-align: center;
+  border: 1px solid #9695a7;
+  padding: 0.2rem 0;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+.item i {
+  font-size: 1.2rem;
+  display: block;
+}
+.t-title {
+  font-size: 0.2rem;
+}
+.more {
+  position: relative;
+}
+.more:hover .menus {
+  display: block;
+}
+.menus {
+  position: absolute;
+  top: -200%;
+  left: 102%;
+  background: #120c35;
+  border-radius: 1rem;
+  color: #fff;
+  display: none;
+}
+.menus ul {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin: 1.4rem 1rem;
+  min-width: 10rem;
+}
+.menus ul li.menu {
+  width: 100%;
+  font-size: 0.2rem;
+  cursor: pointer;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  padding-left: 0.6rem;
+}
+.menus ul li.menu:hover {
+  background: #2d2559;
+}

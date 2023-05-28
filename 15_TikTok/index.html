@@ -1,0 +1,258 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <title>Tiktok App Store</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu-bar">
+        <ul>
+          <li class="active" data-sec="home">
+            <i class="ri-home-3-line"></i>
+            <span>Home</span>
+          </li>
+          <li data-sec="friends">
+            <i class="ri-group-2-fill"></i>
+            <span>Friends</span>
+          </li>
+          <li class="notactive">
+            <i class="ri-add-fill"></i>
+          </li>
+          <li data-sec="inbox">
+            <i class="ri-chat-2-line"></i>
+            <span>Inbox</span>
+          </li>
+          <li data-sec="profile">
+            <i class="ri-user-6-line"></i>
+            <span>Profile</span>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <section id="home" class="box home active">
+          <video controls loop>
+            <source src="./video/video-1.mp4" type="video/mp4" />
+          </video>
+          <div class="top-bar">
+            <div class="live">
+              <div class="inner-live">live</div>
+            </div>
+            <div class="following-group">
+              <span class="following">following</span>
+              <span class="for-you active">for you</span>
+            </div>
+            <div class="search">
+              <i class="ri-search-2-line"></i>
+            </div>
+          </div>
+          <div class="right-bar">
+            <ul>
+              <li>
+                <img src="img/profile.jpg" alt="" />
+              </li>
+              <li>
+                <i class="ri-heart-fill"></i>
+                <span>23.7k</span>
+              </li>
+              <li>
+                <i class="ri-message-3-fill"></i>
+                <span>1024</span>
+              </li>
+              <li>
+                <i class="ri-bookmark-fill"></i>
+                <span>5369</span>
+              </li>
+              <li>
+                <i class="ri-share-forward-fill"></i>
+                <span>4325</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="friends" class="box friends">
+          <video controls loop>
+            <source src="./video/video-1.mp4" type="video/mp4" />
+          </video>
+          <div class="top-bar">
+            <div class="add">
+              <i class="ri-user-add-fill"></i>
+            </div>
+            <div class="search">
+              <i class="ri-search-2-line"></i>
+              <input type="text" placeholder="Find friends" />
+              <i class="ri-sound-module-fill"></i>
+            </div>
+            <div class="info">
+              <i class="ri-information-fill"></i>
+            </div>
+          </div>
+          <div class="right-bar">
+            <ul>
+              <li>
+                <img src="img/profile01.jpg" alt="" />
+              </li>
+              <li>
+                <i class="ri-heart-fill"></i>
+                <span>3</span>
+              </li>
+              <li>
+                <i class="ri-message-3-fill"></i>
+                <span>1</span>
+              </li>
+              <li>
+                <i class="ri-bookmark-fill"></i>
+                <span>5</span>
+              </li>
+              <li>
+                <i class="ri-share-forward-fill"></i>
+                <span>4</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="inbox" class="box inbox">
+          <div class="header-inbox">
+            <h2>inbox</h2>
+            <i class="ri-discuss-line"></i>
+          </div>
+          <div class="live">
+            <div class="live-profile">
+              <div class="profile-img">
+                <img src="./img/profile02.jpg" alt="" />
+              </div>
+              <span>alex smith</span>
+            </div>
+          </div>
+          <div class="data">
+            <div class="main-inbox">
+              <div class="msg-box">
+                <div class="icon">
+                  <i class="ri-group-fill"></i>
+                </div>
+                <div class="details">
+                  <h3>New followers</h3>
+                  <p>amelia started following you</p>
+                </div>
+              </div>
+              <div class="msg-box">
+                <div class="icon">
+                  <i class="ri-group-fill"></i>
+                </div>
+                <div class="details">
+                  <h3>activities</h3>
+                  <p>amelia, joseph, george and 3 others...</p>
+                </div>
+              </div>
+              <div class="msg-box">
+                <div class="icon">
+                  <img src="./img/profile02.jpg" alt="" />
+                </div>
+                <div class="details">
+                  <h3>adam</h3>
+                  <p>hi, how are you?</p>
+                </div>
+              </div>
+              <div class="msg-box">
+                <div class="icon">
+                  <img src="./img/profile04.jpg" alt="" />
+                </div>
+                <div class="details">
+                  <h3>george</h3>
+                  <p>see you man</p>
+                </div>
+              </div>
+              <div class="msg-box">
+                <div class="icon">
+                  <img src="./img/profile03.jpg" alt="" />
+                </div>
+                <div class="details">
+                  <h3>george</h3>
+                  <p>see you man</p>
+                </div>
+              </div>
+              <div class="msg-box">
+                <div class="icon">
+                  <img src="./img/profile02.jpg" alt="" />
+                </div>
+                <div class="details">
+                  <h3>george</h3>
+                  <p>see you man</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="profile" class="box profile">
+          <div class="top-header">
+            <h3>frontend with salimi</h3>
+            <div class="icons">
+              <i class="ri-printer-fill"></i>
+              <i class="ri-printer-fill"></i>
+            </div>
+          </div>
+          <div class="profile-info">
+            <div class="profile-img">
+              <div class="inner-img">
+                <img src="./img/profile01.jpg" alt="" />
+              </div>
+              <h3>front end with salimi</h3>
+            </div>
+            <ul>
+              <li>
+                <h5>115</h5>
+                <span>following</span>
+              </li>
+              <li>
+                <h5>3600</h5>
+                <span>followers</span>
+              </li>
+              <li>
+                <h5>9871</h5>
+                <span>likes</span>
+              </li>
+            </ul>
+            <div class="buttons">
+              <button class="btn">Edit profile</button>
+              <button class="btn">Add friends</button>
+            </div>
+            <p>For More Video</p>
+          </div>
+          <div class="profile-videos">
+            <ul>
+              <li class="active"><i class="ri-printer-fill"></i></li>
+              <li><i class="ri-printer-fill"></i></li>
+              <li><i class="ri-printer-fill"></i></li>
+              <li><i class="ri-printer-fill"></i></li>
+            </ul>
+            <div class="content">
+              <div class="videos-container">
+                <div class="video">
+                  <video controls loop autoplay muted>
+                    <source src="video/video-1.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <div class="video">
+                  <video controls loop autoplay muted>
+                    <source src="video/video-1.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

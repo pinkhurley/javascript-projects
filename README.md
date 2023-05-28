@@ -16,6 +16,9 @@
 - 10_Chat 聊天程序界面 ; `word-wrap: break-word`： 解决字符太长不换行 ； ` keyCode=13` 是 enter 键 ；
 - 11_RandomPassord 随机密码生成器
 - 12_Subscription 轮播图，grid-auto-columns 的使用
+- 13_Offset 学习 dom 元素 offsetWidth\clientWidth\scrollWidth
+- 14_Menu_01 弹窗菜单
+- 15_TikTok TikTok clone
 
 ## 进阶案例
 
@@ -30,3 +33,4 @@ ES6 使用
 - 08_Timeline 时间轴
   - flex 布局 左边图片会被挤压，需要给左边或者右边图片加 flex-shrink:0 或者加一个 `min-width`
   - 伪元素 z-index:-1, 超出伪元素及其父级容器的层叠顺序，需要在父容器中添加 z-index:0
+- 14_Menu_01 弹窗菜单
