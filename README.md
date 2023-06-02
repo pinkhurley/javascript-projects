@@ -19,6 +19,7 @@
 - 13_Offset 学习 dom 元素 offsetWidth\clientWidth\scrollWidth
 - 14_Menu_01 弹窗菜单
 - 15_TikTok TikTok clone
+- 16_FAQ
 
 ## 进阶案例
 

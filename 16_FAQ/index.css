@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.site {
+  display: flex;
+  gap: 3rem;
+}
+section.left {
+  min-width: 300px;
+  background-color: #f3f3fb;
+  border-radius: 1.2rem;
+  height: fit-content;
+}
+section.right {
+  min-width: 700px;
+}
+section {
+  margin: 0 auto;
+}
+.menus {
+  padding: 2rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.menu {
+  padding: 1rem;
+  cursor: pointer;
+}
+.menu.active,
+.menu:hover {
+  background-color: #fff;
+}
+
+.lists {
+  margin: 2rem 0;
+}
+.list {
+  position: relative;
+  border-bottom: 1px solid #9a9ba3;
+}
+.list .question {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  transition: all 1s;
+  margin: 1rem 0;
+}
+.list .answer {
+  margin: 1.5rem 0 1.5rem 1.6rem;
+  transition: all 1s;
+  display: none;
+}
+/* .list .question:hover ~ .answer {
+  background-color: antiquewhite;
+  display: block;
+} */
+.list.active .answer {
+  display: block;
+}
+.list.active .question i {
+  transform: rotate(180deg);
+}
