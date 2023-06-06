@@ -19,7 +19,9 @@
 - 13_Offset 学习 dom 元素 offsetWidth\clientWidth\scrollWidth
 - 14_Menu_01 弹窗菜单
 - 15_TikTok TikTok clone
-- 16_FAQ
+- 16_FAQ 显示和隐藏菜单栏
+- 17_Startbuck 星巴克菜单仿写
+- 18_VideoPlatform 视频媒体平台 - 即时设计
 
 ## 进阶案例
 
