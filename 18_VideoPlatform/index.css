@@ -264,15 +264,14 @@
   background-color: #646e78;
   position: relative;
 }
-.movie-slider .slider::before {
-  content: "";
+.movie-slider .dot {
   width: 20px;
   height: 12px;
   border-radius: 5px;
   background-color: #646e78;
   position: absolute;
   top: -5px;
-  left: 5px;
+  left: 0px;
   cursor: pointer;
 }
 .movie-lists-title {
@@ -331,11 +330,14 @@
   display: flex;
   gap: 10px;
   overflow-y: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: 0;
+  transition: all 0.3s;
 }
-/* .movie {
-  width: 200px;
-  height: 310px;
-} */
+.movie-lists-main ul::-webkit-scrollbar {
+  display: none;
+}
 .movie img {
   width: 180px;
   object-fit: cover;
