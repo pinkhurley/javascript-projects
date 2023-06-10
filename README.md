@@ -22,6 +22,10 @@
 - 16_FAQ 显示和隐藏菜单栏
 - 17_Startbuck 星巴克菜单仿写
 - 18_VideoPlatform 视频媒体平台 - 即时设计
+- 19_ResponsiveLayout02 响应式布局 ，仿写 2
+  - 背景阴影 linear-gradient ，从上到下，从下到上
+  - 遮盖动画 setTimeout、setInterval
+  - gird-row, [Clip path maker](https://bennettfeely.com/clippy/)
 
 ## 进阶案例
 
